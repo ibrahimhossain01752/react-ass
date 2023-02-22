@@ -55,7 +55,7 @@ function BlogPosts() {
       <div className="row card">
         {currentPosts.map((post) => (
           
-           <div className="col-lg-4 col-md-6 col-sm-12">
+           <div className="col-lg-3 col-md-6 col-sm-12">
              <h3>{post.title}</h3>
             <p>{post.body}</p>
            </div>
